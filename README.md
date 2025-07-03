@@ -1,62 +1,102 @@
-# SLU Style Guide
+# 🎨 Saint Louis University (SLU) Colors and Fonts Style Guide
 
-Style Guide
-Name Guidelines
-Saint Louis University School of Law is the full and official title for the School of Law. The full name should be used on first reference. Following this, the School of Law, or SLU LAW (all caps) are acceptable references. General references such as "law school" should not be capitalized. Note: there is no "The" before Saint Louis University School of Law.
+## ✏️ Overview
 
-For the University Style Guide, visit the Marketing & Communications webpage.
+Follow these design, color, and font guidelines in marketing projects for **Saint Louis University** (SLU). These elements help maintain a consistent and recognizable brand identity.
 
-Logo Guidelines
-The SLU LAW logo is available for individual use.
+---
 
-SLU LAW students, faculty and staff may use the logo to create these types of materials:
+## 🔵 Primary Color Palette
 
-Event flyers and signage for posting on the SLU and School of Law campus
-Interoffice memos
-T-shirts, mugs, etc.
-PowerPoint, Word, Excel and email documents
-You may not use the logo to create these types of pieces (these will be handled by the Office of Communications):
+One aspect of any brand that can be instantly recognizable is color. Colors help define a mood and give a sense of character and personality. Our primary palette is derived from our history and remains a staple for our future.
 
-Any type of mailer or marketing piece for use outside of the School of Law
-Anything dealing with commencement, graduation or an official University matter
-Student business cards
-Please note: Saint Louis University has its own set of standards and guidelines for official University logos, Billiken logos and the University seal. Find these guidelines and downloads here.
+### **SLU Blue**
 
-View SLU's color and font guidelines here.
+- **PMS:** 293C
+- **CMYK:** 100, 69, 0, 4
+- **RGB:** 0, 61, 165
+- **HEX:** `#003DA5`
 
-Logo Downloads
-To avoid skewing or distorting the logo, please hold down the SHIFT key when resizing. Do not place text or images over any part of the logo.
+> Blue is dependable, trustworthy, and strong — embodying the University’s values of openness, leadership, confidence, and boldness. It also reflects the rivers forming the St. Louis landscape.
 
-For questions about using the SLU LAW logo, please contact:
-Brittney Roseburrow
-Graphic Designer, School of Law
-(314) 977-7276
-brittney.roseburrow@slu.edu 
+---
 
-Primary (Left-Aligned) 
-School of Law logo	SLU Blue (PMS 293)
-Print: (High-Res) .pdf
-Web: (Low-Res): .jpg
-Web: (Low-Res): .png
- 	
- 
+### **College Church Gray**
 
-White
-Print: (High-Res) .pdf
-Web: (Low-Res): .png
+- **PMS:** Cool Gray 3C
+- **CMYK:** 8, 5, 7, 16
+- **RGB:** 200, 201, 199
+- **HEX:** `#C8C9C7`
 
- 
+> A neutral color that complements SLU Blue and the secondary palette.
 
-Primary (Centered)
-School of Law Centered Logo	SLU Blue (PMS 293)
-Print: (High-Res) .pdf
-Web: (Low-Res): .jpg
-Web: (Low-Res): .png
- 	White
-Print: (High-Res) .pdf
-Web: (Low-Res): .png
+---
 
+### **Iris White**
 
-### `npm run build` fails to minify
+- **PMS:** White
+- **CMYK:** 0, 0, 0, 0
+- **RGB:** 255, 255, 255
+- **HEX:** `#FFFFFF`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Another neutral that pairs well with all brand colors.
+
+---
+
+## 🌈 Secondary Color Palette
+
+These colors are bright and bold, showcasing the youthful and vibrant side of SLU. They should be used sparingly as accents and never replace the primary palette.
+
+| Color Name          | PMS      | CMYK             | RGB             | HEX      |
+| ------------------- | -------- | ---------------- | --------------- | -------- |
+| Fountain Blue       | 298C     | 58, 3, 1, 0      | 83, 195, 238    | `#53C3EE` |
+| Grand Blue          | 289C     | 100, 88, 39, 41  | 0, 36, 77       | `#00244D` |
+| Billiken Bronze     | 874C     | 40, 50, 83, 18   | 121, 93, 62     | `#795D3E` |
+| West Pine Beige     | 7527C    | 11, 9, 20, 0     | 227, 222, 203   | `#E3DECB` |
+| Gateway Gold        | 123C/114U| 0, 19, 89, 0     | 255, 199, 44    | `#FFC72C` |
+| Rooftop Teal        | 337C     | 29, 0, 22, 0     | 143, 214, 189   | `#8FD6BD` |
+| Oriflamme Orange    | 144C     | 0, 51, 100, 0    | 237, 139, 0     | `#ED8B00` |
+| Valle Verde         | 7487C    | 44, 0, 80, 0     | 142, 231, 100   | `#8EE764` |
+
+> Use these to add breadth and depth to SLU’s look and feel. They complement the master brand colors to maintain consistency across communications.
+
+---
+
+## ✍️ Fonts
+
+Typography helps maintain brand presence and consistency across all platforms. The SLU identity system uses three primary fonts:
+
+### **1. Crimson Pro**
+
+- Extremely legible and versatile.
+- Use primarily for body copy.
+- Available in Roman, Semibold, and Bold.
+- Free Google Font: [Download Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro)
+
+> For print, use the Static version instead of the Variable Weight version.
+
+---
+
+### **2. Brandon Grotesque**
+
+- Strong, bold, and contemporary.
+- SLU’s headline font — use primarily in bold weight and all caps.
+- Available for purchase at [MyFonts.com](https://www.myfonts.com) or [Adobe Fonts](https://fonts.adobe.com).
+
+---
+
+### **3. Archivo Narrow**
+
+- Condensed sans serif for tight layout spaces.
+- Use for body copy where needed.
+- Free Google Font: [Download Archivo Narrow](https://fonts.google.com/specimen/Archivo+Narrow)
+
+---
+
+## ✅ Final Notes
+
+Using these colors and fonts consistently helps create a cohesive and recognizable SLU brand for all audiences. These guidelines apply to printed materials, promotional items, stationery, signage, and digital projects.
+
+---
+
+**Saint Louis University — One Brand, One Vision.**
