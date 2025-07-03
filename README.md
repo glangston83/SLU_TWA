@@ -1,69 +1,61 @@
-# Getting Started with Create React App
+# SLU Style Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Style Guide
+Name Guidelines
+Saint Louis University School of Law is the full and official title for the School of Law. The full name should be used on first reference. Following this, the School of Law, or SLU LAW (all caps) are acceptable references. General references such as "law school" should not be capitalized. Note: there is no "The" before Saint Louis University School of Law.
 
-## Available Scripts
+For the University Style Guide, visit the Marketing & Communications webpage.
 
-In the project directory, you can run:
+Logo Guidelines
+The SLU LAW logo is available for individual use.
 
-### `npm start`
+SLU LAW students, faculty and staff may use the logo to create these types of materials:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Event flyers and signage for posting on the SLU and School of Law campus
+Interoffice memos
+T-shirts, mugs, etc.
+PowerPoint, Word, Excel and email documents
+You may not use the logo to create these types of pieces (these will be handled by the Office of Communications):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Any type of mailer or marketing piece for use outside of the School of Law
+Anything dealing with commencement, graduation or an official University matter
+Student business cards
+Please note: Saint Louis University has its own set of standards and guidelines for official University logos, Billiken logos and the University seal. Find these guidelines and downloads here.
 
-### `npm test`
+View SLU's color and font guidelines here.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Logo Downloads
+To avoid skewing or distorting the logo, please hold down the SHIFT key when resizing. Do not place text or images over any part of the logo.
 
-### `npm run build`
+For questions about using the SLU LAW logo, please contact:
+Brittney Roseburrow
+Graphic Designer, School of Law
+(314) 977-7276
+brittney.roseburrow@slu.edu 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Primary (Left-Aligned) 
+School of Law logo	SLU Blue (PMS 293)
+Print: (High-Res) .pdf
+Web: (Low-Res): .jpg
+Web: (Low-Res): .png
+ 	
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+White
+Print: (High-Res) .pdf
+Web: (Low-Res): .png
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
 
-### `npm run eject`
+Primary (Centered)
+School of Law Centered Logo	SLU Blue (PMS 293)
+Print: (High-Res) .pdf
+Web: (Low-Res): .jpg
+Web: (Low-Res): .png
+ 	White
+Print: (High-Res) .pdf
+Web: (Low-Res): .png
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
