@@ -8,6 +8,7 @@ import {
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Regions from "./pages/Regions";
+import Video from "./pages/Video";
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
         <Link to="/">Login</Link>
         <Link to="/home">Home</Link>
         <Link to="/regions">Regions</Link>
+        <Link to="/video">Video</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/regions" element={<Regions />} />
+         <Route path="/video" element={<Video />} />
       </Routes>
     </Router>
   );
