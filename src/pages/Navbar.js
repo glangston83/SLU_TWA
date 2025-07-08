@@ -20,7 +20,7 @@ function ActionButtons() {
 // Second component: SLU Logo, Regions, Partners, Analytics, Industries
 function MainNav() {
   return (
-    <div className="flex items-center justify-between w-full">
+    <div className="flex py-0 items-center justify-between w-full">
       <img src={sluLogo} alt="SLU Logo" className="h-35 w-auto" />
       <div className="flex items-center gap-4 pr-8">
         <button className="text-blue-900 font-semibold hover:underline">Regions</button>

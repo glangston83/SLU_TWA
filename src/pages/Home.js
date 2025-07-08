@@ -19,18 +19,19 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="w-full px-8 py-8 grid grid-cols-1 gap-8">
+      <div className="w-full  py-8 grid grid-cols-1 gap-8">
         {/* Column 1 */}
-        <div className="relative flex flex-col items-center h-60">
+        <div className="relative flex flex-col items-center h-60 rounded overflow-hidden">
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#003DA5] to-[#53C3EE] opacity-200 z-0"></div>
           {/* Transparent background image for only column 1 */}
           <img
             src={bgImg}
             alt="Background"
-            className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none rounded"
-            style={{ zIndex: 0 }}
+            className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
           />
-          <h2 className="text-xl font-bold text-blue-900 mb-4 flex-1 flex items-center justify-center h-full relative z-10 text-center">
-            Transformative Workforce<br></br> Academy
+          <h2 className="text-xl font-bold text-white mb-4 flex-1 flex items-center justify-center h-full relative z-10 text-center">
+            Transformative Workforce<br /> Academy
           </h2>
         </div>
         {/* Column 2 */}
