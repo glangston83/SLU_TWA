@@ -137,9 +137,20 @@ export default function Login() {
             Contact 314-977-4000 for help
           </p>
         </form>
+          <div className="flex items-center my-4">
+          <div className="flex-grow border-t border-gray-300"></div>
+          <span className="mx-4 text-white font-['Crimson_Pro']">OR</span>
+          <div className="flex-grow border-t border-gray-300"></div>
+        </div>
+        {/* <span className="text-center mb-4 font-['Crimson_Pro']">OR</span> */}
+        <button
+          type="submit"
+          onClick={() => navigate("/home")}
+         className="w-full h-[45px] rounded-[5px] bg-white text-black text-[16px] mb-4 font-['Crimson_Pro'] cursor-pointer shadow-md transform transition duration-200 hover:-translate-y-1 hover:shadow-lg"
+        >
+          Continue as a Guest
+        </button>
       </div>
-
-
       <div className="flex flex-[1] bg-[#3D6E9B]" />
     </div>
   );
