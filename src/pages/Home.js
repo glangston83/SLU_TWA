@@ -1,16 +1,17 @@
 import Navbar from "./Navbar";
 import React from "react";
 import regionsImg from "../assets/USA-flag-map.png";
-import partnersImg from "../assets/USA-flag-map.png";
-import jobsImg from "../assets/USA-flag-map.png";
-import bgImg from "../assets/USA-flag-map.png"; // Import your transparent image
-
+import TWAImmg from "../assets/Tranformative workforce academy image.png"; // Import the TWA logo
+import checker from "../assets/Checker.svg"; // Import the checker image
+import "@fontsource/crimson-pro/700.css"; 
+import partnerImg from "../assets/partner.png"; // Import the partner image
+import jobFairImg from "../assets/job_fair.png"; // Import the job_seeker image
 function InfoBox({ image, title, content }) {
   return (
-    <div className="bg-white rounded shadow p-4 flex flex-col items-center text-center">
-      <img src={image} alt={title} className="h-16 w-16 mb-2" />
-      <h3 className="font-bold text-blue-900 mb-1">{title}</h3>
-      <p className="text-gray-700 text-sm">{content}</p>
+    <div className="bg-white rounded shadow flex flex-col items-start text-center w-[352px] h-[300px]">
+      <img src={image} alt={title} className="reative h-[55%] w-full" />
+      <h3 className="flex font-normal font-['Crimson_Pro'] pl-[4%] pt-[5%] pb-[3%] text-[#003DA5] mb-1">{title}</h3>
+      <p className="font-['Crimson_Pro'] px-[4%] text-black text-sm">{content}</p>
     </div>
   );
 }
@@ -19,50 +20,54 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="w-full  py-8 grid grid-cols-1 gap-8">
+      <div className="w-full  py-0 grid gap-0">
         {/* Column 1 */}
-        <div className="relative flex flex-col items-center h-60 rounded overflow-hidden">
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#003DA5] to-[#53C3EE] opacity-200 z-0"></div>
-          {/* Transparent background image for only column 1 */}
+        <div className="flex flex-col items-center h-full">
           <img
-            src={bgImg}
-            alt="Background"
-            className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
-          />
-          <h2 className="text-xl font-bold text-white mb-4 flex-1 flex items-center justify-center h-full relative z-10 text-center">
-            Transformative Workforce<br /> Academy
-          </h2>
+            src={TWAImmg} alt="background"
+            className="flex inset-0 w-full"
+            />
         </div>
         {/* Column 2 */}
-        <div className="flex flex-col items-center">
-          <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">
-            Connecting Justice Involved Jobseekers and second Change Employers
-          </h2>
-            <p className="text-gray-700 text-center mb-4">
-    We bridge the gap between justice-involved individuals seeking meaningful employment and employers committed to offering second chances.Our network provides resources, support, and opportunities for jobseekers to rebuild their futures.Together, we foster inclusive workplaces and stronger communities through transformative workforce solutions.
-  </p>
+        <div className="flex flex-col py-8 px-0 items-center">
+          <h2 className="text-[2rem] font-['Crimson_Pro'] font-regular font-normal text-[#003DA5] mb-4 text-center">Connecting Justice-Involved Jobseekers and Second Chance Employers</h2>
+            <p className="text-[1rem] font-['Crimson_Pro'] px-[20%] text-regular text-black text-center mb-4">
+TWA connects justice-involved individuals with fair-chance employers. Also referred to as second-chance employers, these are
+ businesses and organizations that are willing to look past the person’s record to the talent the jobseeker has to offer. Some fair 
+ chance employers can hire people with any criminal background while others must be more selective based on a variety of factors.</p>
         </div>
         {/* Column 3 */}
-        <div>
-          <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">
-            Get Connected with TWA
-          </h2>
-          <div className="flex flex-row gap-4">
+        <div
+        className="relative flex flex-col items-center h-[400px] w-full "
+        style={{
+          backgroundImage: `url(${checker})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgrountImageOpacity: 0.5,
+          z: 0
+          }}
+        >
+
+          <div>
+            <h2 className="text-[2rem] font-['Crimson_Pro'] font-normal text-black mb-4 text-center">Get connected with the TWA</h2>
+          </div>
+          <hr className=" border-[#003DA5] h-[80%] w-[10%]" />
+          <div className="flex px-[10%] flex-row gap-[10%]">
             <InfoBox
               image={regionsImg}
               title="Regions"
-              content="Explore workforce opportunities by region and connect with local resources."
+              content="Connect with our services throughout US."
             />
             <InfoBox
-              image={partnersImg}
+              image={partnerImg}
               title="Partners"
-              content="Meet our partners who support justice-involved individuals and workforce development."
+              content="Find out how to partner, volunteer or support."
             />
             <InfoBox
-              image={jobsImg}
-              title="Jobs"
-              content="Find job openings and career support through the TWA network."
+              image={jobFairImg}
+              title="Job Fair"
+              content="Job Seekers can find programs that can help them."
             />
           </div>
         </div>
