@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import React from "react";
 import regionsImg from "../assets/USA-flag-map.png";
 import TWAImmg from "../assets/Tranformative workforce academy image.png"; // Import the TWA logo
@@ -19,7 +19,7 @@ function InfoBox({ image, title, content }) {
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="w-full  py-0 grid gap-0">
         {/* Column 1 */}
         <div className="flex flex-col items-center h-full">
