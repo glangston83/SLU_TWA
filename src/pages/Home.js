@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import React from "react";
 import regionsImg from "../assets/USA-flag-map.png";
 import TWAImmg from "../assets/Tranformative workforce academy image.png"; // Import the TWA logo
 import checker from "../assets/Checker.svg"; // Import the checker image
-import "@fontsource/crimson-pro/700.css"; 
+// import "@fontsource/crimson-pro/700.css"; 
 import partnerImg from "../assets/partner.png"; // Import the partner image
 import jobFairImg from "../assets/job_fair.png"; // Import the job_seeker image
 function InfoBox({ image, title, content, route }) {
@@ -21,33 +21,33 @@ function InfoBox({ image, title, content, route }) {
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="w-full  py-0 grid gap-0">
         {/* Column 1 */}
         <div className="flex flex-col items-center h-full">
           <img
             src={TWAImmg} alt="background"
             className="flex inset-0 w-full"
-            />
+          />
         </div>
         {/* Column 2 */}
         <div className="flex flex-col py-8 px-0 items-center">
           <h2 className="text-[2rem] font-['Crimson_Pro'] font-regular font-normal text-[#003DA5] mb-4 text-center">Connecting Justice-Involved Jobseekers and Second Chance Employers</h2>
-            <p className="text-[1rem] font-['Crimson_Pro'] px-[20%] text-regular text-black text-center mb-4">
-TWA connects justice-involved individuals with fair-chance employers. Also referred to as second-chance employers, these are
- businesses and organizations that are willing to look past the person’s record to the talent the jobseeker has to offer. Some fair 
- chance employers can hire people with any criminal background while others must be more selective based on a variety of factors.</p>
+          <p className="text-[1rem] font-['Crimson_Pro'] px-[20%] text-regular text-black text-center mb-4">
+            TWA connects justice-involved individuals with fair-chance employers. Also referred to as second-chance employers, these are
+            businesses and organizations that are willing to look past the person’s record to the talent the jobseeker has to offer. Some fair
+            chance employers can hire people with any criminal background while others must be more selective based on a variety of factors.</p>
         </div>
         {/* Column 3 */}
         <div
-        className="relative flex flex-col items-center h-[400px] w-full "
-        style={{
-          backgroundImage: `url(${checker})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgrountImageOpacity: 0.5,
-          z: 0
+          className="relative flex flex-col items-center h-[400px] w-full "
+          style={{
+            backgroundImage: `url(${checker})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgrountImageOpacity: 0.5,
+            z: 0
           }}
         >
 

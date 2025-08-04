@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   useLocation
 } from "react-router-dom";
 
@@ -13,20 +12,13 @@ import Video from "./pages/Video";
 import CityDetailPage from "./pages/CityDetailPage";
 import Navbar from "./pages/Navbar";
 import Statistics from "./pages/statistics"; // Import the Statistics page
-
 function App() {
   const location = useLocation();
-  const hideNavbar = location.pathname === "/";
+  const hideNavbar = location.pathname === "/"; // hide navbar on login route
 
   return (
     <>
-      {!hideNavbar && (
-        <nav className="flex gap-4 p-4 bg-gray-200">
-          <Link to="/home" className="cursor-pointer">Home</Link>
-          <Link to="/regions" className="cursor-pointer">Regions</Link>
-          <Link to="/video" className="cursor-pointer">Video</Link>
-        </nav>
-      )}
+      {!hideNavbar && <Navbar />}
 
       <Routes>
         <Route path="/" element={<Login />} />
@@ -35,6 +27,7 @@ function App() {
         <Route path="/video" element={<Video />} />
         <Route path="/citydetailpage" element={<CityDetailPage />} />
         <Route path="/statistics" element={<Statistics />} />
+
       </Routes>
     </>
   );
