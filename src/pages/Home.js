@@ -6,13 +6,15 @@ import checker from "../assets/Checker.svg"; // Import the checker image
 import "@fontsource/crimson-pro/700.css"; 
 import partnerImg from "../assets/partner.png"; // Import the partner image
 import jobFairImg from "../assets/job_fair.png"; // Import the job_seeker image
-function InfoBox({ image, title, content }) {
+function InfoBox({ image, title, content, route }) {
   return (
-    <div className="bg-white rounded shadow flex flex-col items-start text-center w-[352px] h-[300px]">
-      <img src={image} alt={title} className="reative h-[55%] w-full" />
-      <h3 className="flex font-normal font-['Crimson_Pro'] pl-[4%] pt-[5%] pb-[3%] text-[#003DA5] mb-1">{title}</h3>
-      <p className="font-['Crimson_Pro'] px-[4%] text-black text-sm">{content}</p>
-    </div>
+    <a href={route} className="no-underline">
+      <div className="bg-white rounded shadow flex flex-col items-start text-center w-[352px] h-[300px]">
+        <img src={image} alt={title} className="reative h-[55%] w-full" />
+        <h3 className="flex font-normal font-['Crimson_Pro'] pl-[4%] pt-[5%] pb-[3%] text-[#003DA5] mb-1">{title}</h3>
+        <p className="font-['Crimson_Pro'] px-[4%] text-black text-sm">{content}</p>
+      </div>
+    </a>
   );
 }
 
@@ -58,16 +60,19 @@ TWA connects justice-involved individuals with fair-chance employers. Also refer
               image={regionsImg}
               title="Regions"
               content="Connect with our services throughout US."
+              route="/regions"
             />
             <InfoBox
               image={partnerImg}
               title="Partners"
               content="Find out how to partner, volunteer or support."
+              route="/partners"
             />
             <InfoBox
               image={jobFairImg}
               title="Job Fair"
               content="Job Seekers can find programs that can help them."
+              route="/job-fair"
             />
           </div>
         </div>

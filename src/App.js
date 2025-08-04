@@ -10,7 +10,13 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Regions from "./pages/Regions";
 import Video from "./pages/Video";
+<<<<<<< Updated upstream
 
+=======
+import CityDetailPage from "./pages/CityDetailPage";
+import Navbar from "./pages/Navbar";
+import Statistics from "./pages/statistics"; // Import the Statistics page
+>>>>>>> Stashed changes
 function App() {
   const location = useLocation();
   const hideNavbar = location.pathname === "/";
@@ -30,6 +36,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/regions" element={<Regions />} />
         <Route path="/video" element={<Video />} />
+<<<<<<< Updated upstream
+=======
+        <Route path="/citydetailpage" element={<CityDetailPage />} />
+        <Route path="/statistics" element={<Statistics />} />
+>>>>>>> Stashed changes
       </Routes>
     </>
   );
