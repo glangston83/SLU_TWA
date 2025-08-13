@@ -11,7 +11,7 @@ import Regions from "./pages/Regions";
 import Video from "./pages/Video";
 import CityDetailPage from "./pages/CityDetailPage";
 import Navbar from "./pages/Navbar";
-
+import Statistics from "./pages/statistics"; // Import the Statistics page
 function App() {
   const location = useLocation();
   const hideNavbar = location.pathname === "/"; // hide navbar on login route
@@ -26,6 +26,8 @@ function App() {
         <Route path="/regions" element={<Regions />} />
         <Route path="/video" element={<Video />} />
         <Route path="/citydetailpage" element={<CityDetailPage />} />
+        <Route path="/statistics" element={<Statistics />} />
+
       </Routes>
     </>
   );
