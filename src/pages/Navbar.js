@@ -28,17 +28,39 @@ function MainNav() {
      const navigate = useNavigate();
   return (
     <div className="flex py-0 items-center justify-between px-[3%]">
-      <img src={sluLogo} alt="SLU Logo" className="h-35 w-auto" />
+      <img
+        src={sluLogo}
+        alt="SLU Logo"
+        className="h-35 w-auto cursor-pointer"
+        onClick={() => navigate('/home')}
+        title="Go to Home"
+      />
       <div className="flex items-center gap-4 pr-8">
      <button
           className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline"
-          onClick={() => navigate('/citydetailpage')}
+          onClick={() => navigate('/regions')}
         >
           Regions
         </button>
-        <button className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline">Partners</button>
-        <button className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline">Analytics</button>
-        <button className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline">Industries</button>
+
+        <button
+          className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline"
+          onClick={() => navigate('/partners')}
+        >
+          Partners
+        </button>
+        <button
+          className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline"
+          onClick={() => navigate('/analytics')}
+        >
+          Analytics
+        </button>
+        <button
+          className="font-['Crimson_Pro'] text-blue-900 font-semibold hover:underline"
+          onClick={() => navigate('/industries')}
+        >
+          Industries
+        </button>
       </div>
     </div>
   );

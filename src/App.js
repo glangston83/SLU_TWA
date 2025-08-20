@@ -26,8 +26,9 @@ function App() {
         <Route path="/regions" element={<Regions />} />
         <Route path="/video" element={<Video />} />
         <Route path="/citydetailpage" element={<CityDetailPage />} />
-        <Route path="/statistics" element={<Statistics />} />
-
+        <Route path="/analytics" element={<Statistics />} />
+        <Route path="/partners" element={<div>Partners Page</div>} />
+        <Route path="/industries" element={<div>Industries Page</div>} />
       </Routes>
     </>
   );

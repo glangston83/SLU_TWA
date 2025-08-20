@@ -9,9 +9,9 @@ import jobFairImg from "../assets/job_fair.png"; // Import the job_seeker image
 function InfoBox({ image, title, content, route }) {
   return (
     <a href={route} className="no-underline">
-      <div className="bg-white rounded shadow flex flex-col items-start text-center w-[352px] h-[300px]">
-        <img src={image} alt={title} className="reative h-[55%] w-full" />
-        <h3 className="flex font-normal font-['Crimson_Pro'] pl-[4%] pt-[5%] pb-[3%] text-[#003DA5] mb-1">{title}</h3>
+      <div className="bg-white rounded shadow grid grid-rows-[55%_auto_auto] items-start text-center w-[352px] h-[300px]">
+        <img src={image} alt={title} className="h-full w-full" />
+        <h3 className="font-normal font-['Crimson_Pro'] pl-[4%] pt-[5%] pb-[3%] text-[#003DA5] mb-1">{title}</h3>
         <p className="font-['Crimson_Pro'] px-[4%] text-black text-sm">{content}</p>
       </div>
     </a>
@@ -22,16 +22,16 @@ export default function Home() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="w-full  py-0 grid gap-0">
+      <div className="w-full py-0 grid gap-0 grid-rows-3">
         {/* Column 1 */}
-        <div className="flex flex-col items-center h-full">
+        <div className="grid place-items-center h-full">
           <img
             src={TWAImmg} alt="background"
-            className="flex inset-0 w-full"
+            className="inset-0 w-full"
           />
         </div>
         {/* Column 2 */}
-        <div className="flex flex-col py-8 px-0 items-center">
+        <div className="grid py-8 px-0 place-items-center">
           <h2 className="text-[2rem] font-['Crimson_Pro'] font-regular font-normal text-[#003DA5] mb-4 text-center">Connecting Justice-Involved Jobseekers and Second Chance Employers</h2>
           <p className="text-[1rem] font-['Crimson_Pro'] px-[20%] text-regular text-black text-center mb-4">
             TWA connects justice-involved individuals with fair-chance employers. Also referred to as second-chance employers, these are
@@ -40,22 +40,15 @@ export default function Home() {
         </div>
         {/* Column 3 */}
         <div
-          className="relative flex flex-col items-center h-[400px] w-full "
-          style={{
-            backgroundImage: `url(${checker})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgrountImageOpacity: 0.5,
-            z: 0
-          }}
+          className={
+            `relative grid place-items-center h-[400px] w-full bg-[url('${checker}')] bg-cover bg-center bg-no-repeat`
+          }
         >
-
           <div>
             <h2 className="text-[2rem] font-['Crimson_Pro'] font-normal text-black mb-4 text-center">Get connected with the TWA</h2>
           </div>
-          <hr className=" border-[#003DA5] h-[80%] w-[10%]" />
-          <div className="flex px-[10%] flex-row gap-[10%]">
+          <hr className=" border-[#003DA5] h-[4px] w-[30%] m-2" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 py-2 px-[5%] w-full justify-items-center">
             <InfoBox
               image={regionsImg}
               title="Regions"
